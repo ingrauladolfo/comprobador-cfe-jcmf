@@ -4,9 +4,6 @@ import React from "react";
 // Importa componentes y utilidades relacionados con enrutamiento desde la biblioteca "react-router-dom".
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-// Importa el componente Header desde un directorio relativo.
-import Header from "../components/reusable/Header";
-
 // Importa el componente RegisterService desde el directorio "../views".
 import RegisterService from "../views/RegisterService";
 
@@ -24,9 +21,6 @@ function MainRoutes() {
   return (
     // Inicia el componente Router, que establece el contexto de enrutamiento para la aplicación.
     <Router>
-      {/* Renderiza el componente Header, que probablemente se utiliza para cambiar el nombre de las pestañas del navegador. */}
-      <Header />
-
       {/* Renderiza el componente Navbar, que probablemente es la barra de navegación de la aplicación. */}
       <Navbar />
 
